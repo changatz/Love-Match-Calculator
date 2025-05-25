@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Love Match Calculator 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>💘 <br>Love Match Calculator</h1>
+    <form id="loveForm" aria-label="Love Match Calculator Form">
+      <input type="text" id="name1" placeholder="Your Name" required aria-label="Your Name">
+      <input type="text" id="name2" placeholder="Crush's Name" required aria-label="Crush's Name">
+      <button type="submit">Calculate ❤️</button>
+      <button type="button" id="resetBtn" aria-label="Reset Calculator">Reset 🔄</button>
+    </form>
+    <div id="result" class="hidden" aria-live="polite" aria-atomic="true">
+      <h2>Match Percentage: <span id="percentage">0%</span></h2>
+      <p id="message"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
